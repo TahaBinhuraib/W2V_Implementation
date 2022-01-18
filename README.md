@@ -26,11 +26,4 @@ The objective function forces the words that occur in similar contexts to have s
 
 * **The projection contains the hidden layer which we obtained by multiplying an *mn* matrix with the input vector.** 
 
-### The mathematical model for the neural net
-
-$$
-O_1 = X W_{x1} \\
-O_2 = O_1 W_{12} \\
-Z = \text{softmax}(O_2) \tag{6}
-$$
 
